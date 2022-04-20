@@ -153,3 +153,36 @@ body {
     color: #1f2937;
 }
 
+/* QUOTE */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+
+    padding: 0px 300px;
+    
+    background-color: #e5e7eb;
+    
+}
+
+.quote-text {
+    font-size: 36px;
+   
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+    margin-top: 3em;
+}
+
+.quote-source {
+    padding-bottom: 20px;
+    padding-right: 10px;
+    font-family: 'Roboto';
+    text-align: right;
+}
+
+.quote-source a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: bolder;
+}
